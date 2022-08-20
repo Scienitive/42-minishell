@@ -64,4 +64,4 @@ If you are on Mac you have to edit the Makefile. Comment the line under the "FOR
 
 After compiling it use it like `./minishell`.
 
-![Visual](./assets/minishell.png)
+![Visual](./Assets/minishell.png)
