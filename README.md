@@ -21,18 +21,22 @@ The program has 4 main sections: **`Splitter`** -> **`Lexer`** -> **`Parser`** -
 Let's say our example input is `ls -la | wc -l`
 
 In **`Splitter`** we are dividing input into meaningful parts and store those in a string array (2D char array).
-`ls`
-`-la`
-`|`
-`wc`
-`-l`
+```
+ls
+-la
+|
+wc
+-l
+```
 
 In **`Lexer`** we are looking at the meaningful parts and determine their type.
-`ls = COMMAND`
-`-la = ARGUMENT`
-`| = PIPE`
-`wc = COMMAND`
-`-l = ARGUMENT`
+```
+ls = COMMAND
+-la = ARGUMENT
+| = PIPE
+wc = COMMAND
+-l = ARGUMENT
+```
 
 In **`Parser`** we are creating command blocks.
 ```
