@@ -58,10 +58,10 @@ In **`Executor`** we are simply executing the command blocks.
 
 ## Usage
 
-If you are on Linux just use `make` and it will give the executable `minishell` program.
+Just use `make` to get the executable `minishell` program.
 
-If you are on Mac you have to edit the Makefile. Comment the line under the "FOR LINUX" and uncomment the line under the "FOR MAC" part. Then use `make` to get the executable `minishell` program.
+If you encounter a readline problem when compiling with `make` first use `make readline` then use `make`. This should solve the problem.
 
-After compiling it use it like `./minishell`.
+After compiling it run it like `./minishell`.
 
 ![Visual](./Assets/minishell.png)
